@@ -54,30 +54,6 @@
     z-index:1;
   }
 
-  /* ---- Signature sprout mark ---- */
-  .sprout{
-    width:56px;
-    height:76px;
-    margin-bottom:18px;
-  }
-  .sprout path{
-    fill:none;
-    stroke:var(--gold);
-    stroke-width:2.6;
-    stroke-linecap:round;
-    stroke-linejoin:round;
-    stroke-dasharray:120;
-    stroke-dashoffset:120;
-    animation:grow 1.6s cubic-bezier(.4,0,.2,1) forwards;
-  }
-  .sprout .leaf-l{ animation-delay:.15s; }
-  .sprout .leaf-r{ animation-delay:.35s; }
-  .sprout .stem{ animation-delay:0s; }
-  @keyframes grow{ to{ stroke-dashoffset:0; } }
-  @media (prefers-reduced-motion: reduce){
-    .sprout path{ animation:none; stroke-dashoffset:0; }
-  }
-
   .wordmark{
     font-family:'Cormorant', serif;
     font-weight:600;
@@ -228,12 +204,6 @@
 <body>
 <div class="wrap">
 
-  <svg class="sprout" viewBox="0 0 56 76" xmlns="http://www.w3.org/2000/svg">
-    <path class="stem" d="M28 72 L28 32" />
-    <path class="leaf-l" d="M28 40 C 14 40, 8 30, 6 16 C 20 16, 28 24, 28 40 Z" />
-    <path class="leaf-r" d="M28 32 C 42 32, 48 22, 50 8 C 36 8, 28 16, 28 32 Z" />
-  </svg>
-
   <h1 class="wordmark">Treemeantus<sup>™</sup></h1>
   <div class="tagline">Meant to Grow</div>
 
@@ -301,7 +271,7 @@
       <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="5.5" width="17" height="13" rx="2.5"/><path d="M4.5 7l7.5 6 7.5-6"/></svg></span>
       <span class="label-block">
         <span class="label">Contact us</span>
-        <span class="handle">support@phewsion.com</span>
+        <span class="handle">support@phewsio.com</span>
       </span>
       <span class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
     </a>
