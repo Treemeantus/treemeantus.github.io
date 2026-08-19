@@ -1,1 +1,13 @@
-placeholder
+.img-cashews, .photo-cashews {
+  background-image: url("images/cashews.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f7f3ea;
+}
+.product-photo {
+  width: 100%;
+  border-radius: 12px;
+  aspect-ratio: 1;
+  min-height: 280px;
+}
