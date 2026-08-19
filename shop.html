@@ -7,6 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Cormorant:wght@600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cashews.css">
+  <link rel="stylesheet" href="raisins.css">
 </head>
 <body>
   <header class="nav">
@@ -25,7 +27,7 @@
       <h1 class="display">The first jars</h1>
       <p class="lede">Orders are taken by email while the full shop is being planted.</p>
       <article id="cashews" class="product-hero" style="margin-top:56px;">
-        <img src="https://images.unsplash.com/photo-1508061253366-f7da158b6d46?auto=format&fit=crop&w=1000&q=80" alt="Whole cashews">
+        <div class="product-photo img-cashews" role="img" aria-label="Treemeantus Whole Cashews 400 g jar"></div>
         <div>
           <p class="meta">Harvest · 400 g · Vegetarian</p>
           <h2 class="display">Whole Cashews</h2>
@@ -37,7 +39,7 @@
         </div>
       </article>
       <article id="golden-raisins" class="product-hero" style="margin-top:72px;">
-        <img src="https://images.unsplash.com/photo-1596591868231-05e9080c6c8c?auto=format&fit=crop&w=1000&q=80" alt="Golden raisins">
+        <div class="product-photo img-raisins" role="img" aria-label="Treemeantus Golden Raisins 500 g jar"></div>
         <div>
           <p class="meta">Harvest · 500 g · Vegetarian</p>
           <h2 class="display">Golden Raisins</h2>
@@ -49,7 +51,10 @@
         </div>
       </article>
       <article id="harvest-duo" class="product-hero" style="margin-top:72px;">
-        <img src="https://images.unsplash.com/photo-1516594798947-e65505dbb29d?auto=format&fit=crop&w=1000&q=80" alt="Harvest duo">
+        <div class="duo">
+          <div class="product-photo img-cashews" role="img" aria-label="Treemeantus Cashews jar"></div>
+          <div class="product-photo img-raisins" role="img" aria-label="Treemeantus Golden Raisins jar"></div>
+        </div>
         <div>
           <p class="meta">Harvest · 400 g + 500 g</p>
           <h2 class="display">The First Harvest Duo</h2>
